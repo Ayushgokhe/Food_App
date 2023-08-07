@@ -1,0 +1,15 @@
+<div class="sign_content"></div>
+    <div class="sign_container">
+        <h2><b>Sign up</b></h2>
+        <form action="./login1.html" method="get" id="sign_form">
+            <input type="text" class="sign_element" name="username" maxlength="15" placeholder="username">
+            <input type="password" class="sign_element" name="password" maxlength="10" placeholder="password">
+            <!-- <input type="password" class="element" name="confirm password" maxlength="10" placeholder="confirm password"> -->
+            <input type="email" class="sign_element" name="Email ID" placeholder="Email ID">
+            <input type="text" id="sign_captcha" placeholder="Enter captcha"><span id="sign_container1">&nbsp;</span><img
+                class="sign_refresh" onclick="generate()" src="../img/refresh1.PNG">
+            <a href="#login">
+                <input type="button" class="sign_element1" value="Register" onclick="loadSelectedPage('login')" onclick="throwToLoginPage()">
+            </a>
+        </form>
+    </div>

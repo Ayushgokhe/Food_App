@@ -1,0 +1,19 @@
+<div class="login_content"></div>
+<div class="login_container">
+    <h2><b>Login</b></h2>
+    <ul>
+        <li>
+            <form action="#" method="post">
+                <input class="login_element" id="uid" type="text" name="username" maxlength="25" placeholder="User Name" required>
+                <input class="login_element" id="upass" type="password" name="password" maxlength="10" placeholder="Password"
+                    required>
+                    <span class="invalidCredentials">Invalid details*</span>
+                <a id="anchor" href="#">
+                    <input class="login_element1" onclick="validUserData()" type="button" value="Login">     
+                </a> 
+                <a href="#signup" class="login_signin" onclick="loadSelectedPage('signup')">Sign-up</a>
+                <a href="#forget_pass" class="login_password" onclick="loadSelectedPage('forget_pass')">Forgot Password?</a>
+            </form>
+        </li>
+    </ul>
+</div>
